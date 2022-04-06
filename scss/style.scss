@@ -1,11 +1,13 @@
 @use 'custom';
 
-$primario: #a0fefb;
-$secundario: #494fc1;
-$terciario: #fd084a;
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
 
-$colorico: #D2386C;
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/services';
 
-.test-1{
-    color: $colorico;
-}
+
+
