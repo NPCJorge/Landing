@@ -11187,6 +11187,26 @@ textarea.form-control-lg {
   }
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #9b111e;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  padding-top: 0.5rem;
+  height: 0.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #9b111e;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(155, 17, 30, 0.95), rgba(15, 82, 186, 0.95));
 }
@@ -11197,6 +11217,23 @@ textarea.form-control-lg {
   color: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
+}
+
+.marca {
+  padding: 0 0 5rem 0;
+}
+.marca__logo-box {
+  height: 3rem;
+  margin-bottom: 4rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.marca__logo-box image {
+  height: 100%;
+}
+.marca__logo-box image:hover {
+  filter: grayscale(120);
 }
 
 .intro-section {
