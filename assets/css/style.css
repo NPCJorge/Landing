@@ -11326,4 +11326,50 @@ textarea.form-control-lg {
   max-width: 100%;
 }
 
+.comentarios {
+  position: relative;
+  padding: 0;
+  background: linear-gradient(to right, rgba(155, 17, 30, 0.95), rgba(15, 82, 186, 0.95));
+}
+.comentarios__card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem 1.25rem;
+  border-radius: 0.625rem;
+  height: auto;
+  text-align: center;
+}
+.comentarios__card i {
+  font-size: 1.5rem;
+  color: rgba(155, 17, 30, 0.7);
+}
+.comentarios__card .ratings i {
+  color: rgba(155, 17, 30, 0.7);
+  font-size: 1rem;
+}
+.comentarios__cliente {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.comentarios__cliente img {
+  border: 0.25rem solid rgba(155, 17, 30, 0.7);
+}
+.comentarios__nombre {
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: #fff;
+}
+.comentarios__nombre h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+.comentarios__nombre p {
+  padding-bottom: 2rem;
+  text-transform: capitalize;
+}
+
 /*# sourceMappingURL=style.css.map */
