@@ -1,0 +1,20 @@
+.marca{
+    padding: 0 0 5rem 0;
+
+    &__logo-box{
+        
+        height: 3rem;
+        margin-bottom: 4rem;
+        padding: 0.5rem;
+        text-align: center;
+        position: relative;
+        
+        image{
+            height: 100%;
+
+            &:hover{
+                filter: grayscale(120);
+            }
+        }
+    }
+}
