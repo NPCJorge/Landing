@@ -11207,6 +11207,15 @@ textarea.form-control-lg {
   background-color: #9b111e;
 }
 
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
+}
+
 .menu {
   background: linear-gradient(to right, rgba(155, 17, 30, 0.95), rgba(15, 82, 186, 0.95));
 }
@@ -11224,7 +11233,7 @@ textarea.form-control-lg {
 }
 .marca__logo-box {
   height: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
   padding: 0.5rem;
   text-align: center;
   position: relative;
