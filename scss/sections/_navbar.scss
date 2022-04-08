@@ -1,0 +1,18 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.menu {
+    @include gradient;
+    background: linear-gradient(to right, rgba($secondary, 0.95), rgba($primary, 0.95));
+
+    li {
+        padding: 1rem;
+        
+        a {
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
+
