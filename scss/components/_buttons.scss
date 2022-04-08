@@ -66,8 +66,25 @@
             }
         }
         &:hover {
-            background-color: $hoverinho;
+            background-color: $primary;
             color: $white;
+
+            span {
+                position: absolute;
+                background-color: $secondary;
+                width: 2.5rem;
+                height: 2.5rem;
+                top: 50%;
+                right: 5px;
+                transform: translateY(-50%);
+                border-radius: 50%;
+        
+                i{
+                    color: $white;
+                    font-size: 1rem;
+                    line-height: 2.5rem;
+                }
+            }
         }
     }
 }

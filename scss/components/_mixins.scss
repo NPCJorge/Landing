@@ -12,3 +12,8 @@
     left: 35%;
     translate: (-50%, -50%);
 }
+
+//Color gradiente
+@mixin colorGradient {
+    color: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+}

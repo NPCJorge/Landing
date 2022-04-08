@@ -28,16 +28,16 @@
     left: 0;
     width: 6rem;
     height: 6rem;
-    border: 0.55rem solid $white;
+    border: 0.25rem solid $secondary;
     border-radius: 50%;
     animation: pulse-border 1.5s linear infinite;
 
     &--border-1{
-        animation-delay: 1s;
+        animation-delay: 0.1s;
     }
     
     &--border-2{
-        animation-delay: 1.5s;
+        animation-delay: 0.5s;
     }
     
 }

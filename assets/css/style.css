@@ -11192,8 +11192,23 @@ textarea.form-control-lg {
   line-height: 2.5rem;
 }
 .btn-rounded__2:hover {
-  background-color: #6C244C;
+  background-color: #D2386C;
   color: #fff;
+}
+.btn-rounded__2:hover span {
+  position: absolute;
+  background-color: #00758F;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-rounded__2:hover span i {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 2.5rem;
 }
 
 .display-2 {
@@ -11313,15 +11328,15 @@ textarea.form-control-lg {
   left: 0;
   width: 6rem;
   height: 6rem;
-  border: 0.55rem solid #fff;
+  border: 0.25rem solid #00758F;
   border-radius: 50%;
   animation: pulse-border 1.5s linear infinite;
 }
 .border-animation--border-1 {
-  animation-delay: 1s;
+  animation-delay: 0.1s;
 }
 .border-animation--border-2 {
-  animation-delay: 1.5s;
+  animation-delay: 0.5s;
 }
 
 .services {
@@ -11347,12 +11362,16 @@ textarea.form-control-lg {
 }
 .services__content .icon {
   font-size: 1.5rem;
-  color: #D2386C;
 }
 @media (min-width: 992px) {
   .services__content .icon {
     font-size: 2.5rem;
   }
+}
+.services__content .icon i {
+  background-image: linear-gradient(to right, #D2386C, #00758F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .services__pic {
   max-width: 100%;
@@ -11449,7 +11468,7 @@ textarea.form-control-lg {
 
 /* Social media */
 .footer__social-media a {
-  color: #fff;
+  color: #D2386C;
 }
 .footer__social-media a i {
   font-size: 1rem;
