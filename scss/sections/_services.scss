@@ -11,10 +11,19 @@
         .icon {
             font-size: 2.5rem;
             color: $terciario;
+
+            
+            i {
+                background-image: linear-gradient(to right, $terciario, #ff0000);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
         }
     }
 
     &__pick {
+        padding: 2rem;
         max-width: 100%;
     }
 }
