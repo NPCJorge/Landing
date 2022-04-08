@@ -11171,11 +11171,6 @@ textarea.form-control-lg {
   border: 0.1rem solid rgba(255, 255, 255, 0.6);
   background-color: #fff;
 }
-@media (max-width: 575.98px) {
-  .btn-rounded__2 {
-    display: none;
-  }
-}
 .btn-rounded__2 span {
   position: absolute;
   background-color: #D2386C;
