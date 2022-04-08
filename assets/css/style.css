@@ -11372,4 +11372,41 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.footer {
+  padding-top: 1rem;
+  background-color: #131414;
+}
+
+.contact-box {
+  position: relative;
+}
+.contact-box__icon {
+  width: 2rem;
+  stroke: #9b111e;
+}
+@media (min-width: 576px) {
+  .contact-box__icon {
+    width: 4rem;
+  }
+}
+.contact-box__info {
+  padding: 0.4rem;
+  font-weight: 600;
+}
+.contact-box__info--title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+@media (min-width: 576px) {
+  .contact-box__info--title {
+    font-size: 1.4rem;
+  }
+}
+.contact-box__info--subtitle {
+  color: #adb5bd;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
